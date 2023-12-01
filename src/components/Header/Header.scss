@@ -1,0 +1,29 @@
+@import "../../scss/variables";
+
+.title {
+  color: #cd890c;
+  font-size: 50px;
+  text-align: center;
+  margin: 2rem;
+  margin-top: 4rem;
+}
+
+.categories {
+  text-align: center;
+
+  a {
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.877);
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 16px;
+    padding: 0.8rem;
+    background-color: $categoryButton;
+    margin: 0.5rem;
+    transition: all 1s ease-in-out;
+
+    &:hover {
+      background-color: $categoryButtonHover;
+    }
+  }
+}

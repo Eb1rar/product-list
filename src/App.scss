@@ -1,0 +1,14 @@
+@import "../src/scss/mixins";
+@import "../src/scss/variables";
+@import "../src/scss/reset";
+
+body {
+  height: 100vh;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  align-items: center;
+}
